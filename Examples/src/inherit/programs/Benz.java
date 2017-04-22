@@ -9,6 +9,6 @@ public class Benz extends Car {
 		System.out.println("car type is" +fuel);
 	}
 	void ranking(){
-		System.out.println(carName + " is in 2nd place");
+	System.out.println(carName + " is in 2nd place");
 }
 }
