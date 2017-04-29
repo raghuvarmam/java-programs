@@ -8,7 +8,8 @@ public class TestTelephone {
 		v1.show();
 		System.out.println(" ");
 		Airtel a1=new Airtel();
-		a1.show();
+		a1.nameOfNetwork();
+		//a1.show();
 		System.out.println(" ");
 		Idea i1=new Idea();
 		i1.show();
