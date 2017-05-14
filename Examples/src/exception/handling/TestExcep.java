@@ -9,17 +9,17 @@ public class TestExcep {
 		int a=0,b=0,c=0;
 		Random r= new Random();
 
-		for(int i=0;i<10;i++){
 			try{
+				for(int i=0;i<10;i++){
 				b=r.nextInt();
 				c=r.nextInt();
 				a=1234/(b/c);
 				System.out.println(a);
+				}
 			}catch(ArithmeticException e){
 				a=0;
 				System.out.println("division by zero value of a is "+a);
 			}
-		}
 		System.out.println("a :"+a);
 	}
 
