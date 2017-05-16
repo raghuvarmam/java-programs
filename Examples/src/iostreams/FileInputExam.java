@@ -11,7 +11,7 @@ public class FileInputExam {
 		System.out.println("DEMO fileinpuStream");
 		FileInputStream fis = null;
 		int k;
-		byte[] a = new byte[10];
+		byte[] a = new byte[100];
 		try
 		{
 			fis = new FileInputStream("F:\\sample.txt");
